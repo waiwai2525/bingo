@@ -1,3 +1,8 @@
+import {Header} from "semantic-ui-react";
+
+
 export const BingoContainer = () => {
-    return <div>ビンゴのやつ</div>
+    return (
+        <Header as="h1">ビンゴのやつ</Header>
+    )
 }
