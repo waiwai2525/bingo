@@ -13,7 +13,7 @@ export const BingoContainer = () => {
     const [currentNumber, setCurrentNumber] = useState<number>();
 
     const pick = (): void => {
-        const number = Math.floor(Math.random() * (49 + 1 - 1)) + 1
+        const number = Math.floor(Math.random() * (75 + 1 - 1)) + 1
         setCurrentNumber(number)
     }
 
