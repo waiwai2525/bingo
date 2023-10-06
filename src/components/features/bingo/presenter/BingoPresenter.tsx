@@ -1,12 +1,14 @@
 import {Button, Statistic, Segment, Grid} from "semantic-ui-react";
 
+import {Picked} from "../bingo.type.ts";
+
 
 type Props = {
-    currentNumber?: number;
+    picked?: Picked;
     onPick: () => void;
 }
 
-export const BingoPresenter = ({currentNumber, onPick}: Props) => {
+export const BingoPresenter = ({picked, onPick}: Props) => {
     return (
         <Grid columns={1} padded>
             <Grid.Row>
@@ -19,7 +21,7 @@ export const BingoPresenter = ({currentNumber, onPick}: Props) => {
                                     {/*    <Statistic.Value>B</Statistic.Value>*/}
                                     {/*</Statistic>*/}
                                     <Statistic size='huge'>
-                                        <Statistic.Value>{currentNumber}</Statistic.Value>
+                                        <Statistic.Value>{picked?.number}</Statistic.Value>
                                     </Statistic>
                                 </Grid.Column>
                                 <Grid.Column>
