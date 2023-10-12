@@ -25,8 +25,8 @@ export const BingoPresenter = ({pep, peps, onPick}: Props) => {
                                         <Statistic.Value style={{width: "2ch"}}>{pep?.number}</Statistic.Value>
                                     </Statistic>
                                 </Grid.Column>
-                                <Grid.Column>
-                                    <Button onClick={onPick}>PICK</Button>
+                                <Grid.Column verticalAlign="middle">
+                                    <Button onClick={onPick} size='massive'>PICK</Button>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>
