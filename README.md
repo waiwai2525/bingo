@@ -31,12 +31,4 @@ Typescript
 
 #### 利用ライブラリ
 
-Electron, Vite, React, Bulma
-
-## TODO
-
-- [ ] 抽選を外部ロジックにする
-- [ ] 番号に["B","I","N","G","O"]を付与する
-- [ ] 抽選の重複をなくす
-- [ ] 抽選の履歴を保存する
-- [ ] 単独で動作するようにビルドする
+Electron, Vite, React, Semantic UI
