@@ -1,3 +1,4 @@
-export type Picked = {
+export type Pep = {
     number: number;
+    ident: string;
 }
