@@ -2,33 +2,17 @@
 
 社会情報実践 制作物 No. 1
 
-## 要件定義
+要件
+[REQUIREMENTS.md](./documents/REQUIREMENTS.md)
 
-ビンゴで番号をランダムに提示・記録するシステム
+![demo](documents/assets/demo.gif)
 
-### ビンゴの基本ルール
+## インストール方法
 
-- 1から75までの範囲の数字をランダムに選び提示する．
-- 同じ数字は選べない．
-- 提示済みの番号は順番に記録して表示する．
+[Release](https://github.com/waiwai2525/bingo/releases)から最新のインストーラーをダウンロードしてください。
 
-### 技術仕様
+## 使い方
 
-- 単独で動作するアプリ（Webアプリも可）とする．
-- ゲーム開発環境（Unityなど）は利用不可とする．
+__PICK__ ボタンを押下するごとに新しい番号が表示されます。
 
-#### 動作プラットフォーム
-
-macOS, Windows, Linux（Electron.jsのサポートに準ずる）
-
-#### 開発プラットフォーム
-
-macOS, WebStorm
-
-#### 開発言語
-
-Typescript
-
-#### 利用ライブラリ
-
-Electron, Vite, React, Semantic UI
+最初から始めるときは再起動してください。
